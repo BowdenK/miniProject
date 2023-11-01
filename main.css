@@ -1,9 +1,61 @@
 h1 {
     color:aqua;
+    text-align: center;
+}
+
+h2 {
+    color:orange;
+    text-align: center;
+}
+
+#p1 {
+    color:orange;
+    text-align: center;
 }
 
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
 }
+
+#panel {
+    color: aqua;
+    border: 3px solid rgba(255, 166, 0, 0.562);
+    height: 100px;
+    width: 190px;
+    margin: 20px;
+    padding: 40px 0;
+    position: relative;
+}
+
+#spinnerR {
+    border: 3px solid rgba(0, 255, 255, 0.519);
+    height: 100px;
+    width: 190px;
+    margin: 0px;
+    padding: 40px 0;
+    position: absolute;
+    top: 0px;
+    animation: spinRight 8s linear infinite;
+}
+
+@keyframes spinRight { 
+    100% {transform:rotate(360deg); } }
+
+#spinnerL {
+    border: 3px solid rgba(0, 255, 255, 0.519);
+    height: 100px;
+    width: 190px;
+    margin: 0px;
+    padding: 40px 0;
+    position: absolute;
+    top: 0px;
+    animation: spinLeft 8s linear infinite;
+}
+
+@keyframes spinLeft { 
+    100% {transform:rotate(-360deg); } }
