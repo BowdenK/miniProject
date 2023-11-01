@@ -1,3 +1,5 @@
+body {background-color: rgb(26, 26, 26);}
+
 h1 {
     color:aqua;
     text-align: center;
@@ -33,7 +35,7 @@ h2 {
 }
 
 #spinnerR {
-    border: 3px solid rgba(0, 255, 255, 0.519);
+    border: 3px solid rgba(160, 215, 215, 0.775);
     height: 100px;
     width: 190px;
     margin: 0px;
@@ -47,7 +49,7 @@ h2 {
     100% {transform:rotate(360deg); } }
 
 #spinnerL {
-    border: 3px solid rgba(0, 255, 255, 0.519);
+    border: 3px solid rgba(160, 215, 215, 0.775);
     height: 100px;
     width: 190px;
     margin: 0px;
